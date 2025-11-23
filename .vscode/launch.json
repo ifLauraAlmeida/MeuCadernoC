@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run aulapraticaum (Integrated Terminal)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/aulapraticaum",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "build aulapraticaum",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "console": "integratedTerminal"
+        }
+    ]
+}
